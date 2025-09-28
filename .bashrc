@@ -15,6 +15,14 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
+alias gs='git status'
+alias ga='git add'
+alias gaa='git add .'
+alias gcm='git commit -m'
+alias gd='git diff'
+alias gdc='git diff --cached'
+alias gl='git log'
+
 alias cde='cd /mnt/c/git/entremanure'
 alias re='/mnt/c/git/entremanure/build/entremanure.exe'
 
